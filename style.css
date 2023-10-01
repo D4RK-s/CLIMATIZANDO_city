@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT-Serif', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+.main-box {
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 90%;
+    max-width: 450px;
+}
+
+.DigCity {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 75px);
+}
+
+.Busca {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+}
+
+.img-Lupa {
+    width: 25px;
+}
+
+.box- {
+    margin-top: 30px;
+
+}
+
+.Title {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.°C {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.Max-Min {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.Max {
+    font-size: 15px;
+    color: #ffffff;
+
+}
+
+.Min {
+    font-size: 15px;
+    color: #ffffff;
+
+}
+
+.Temp {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.mini-Box {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Umid {
+    color: #ffffff;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
